@@ -1,3 +1,4 @@
+
 spring.datasource.max-active: 10
 spring.datasource.initial-size: 5
 spring.datasource.max-idle: 5
@@ -11,7 +12,7 @@ spring.datasource.driverClassName: org.postgresql.Driver
 spring.datasource.url: jdbc:postgresql://localhost:5432/accounts
 spring.datasource.platform: postgres
 spring.datasource.username: accounts
-spring.datasource.username: accounts
+spring.datasource.password: accounts
 
 spring.jpa.show-sql: true
 spring.jpa.database: POSTGRESQL
