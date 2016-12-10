@@ -1,1 +1,7 @@
 .idea
+.gitignore
+misc.xml
+modules.xml
+vcs.xml
+workspace.xml
+configurations.iml
