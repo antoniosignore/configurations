@@ -9,8 +9,6 @@ spring.datasource.time-between-eviction-runs-millis: 5000
 spring.datasource.min-evictable-idle-time-millis: 60000
 spring.datasource.driverClassName: org.postgresql.Driver
 spring.datasource.url: jdbc:postgresql://localhost:5432/accounts
-spring.datasource.username: accounts
-spring.datasource.password: accounts
 
 spring.jpa.show-sql: true
 spring.jpa.database: POSTGRESQL
@@ -26,3 +24,10 @@ spring:
 security:
   basic:
     enabled: false
+  datasource:
+    platform: postgres
+    username: accounts
+    password: accounts
+    driverClassName: org.postgresql.Driver
+  jpa.show-sql: true
+
