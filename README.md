@@ -11,5 +11,10 @@ service registry
 
 Eureka
 
+logs
+logback
+papertrailapp -> to receive logs
+
+
 
 
