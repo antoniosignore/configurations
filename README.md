@@ -15,6 +15,9 @@ logs
 logback
 papertrailapp -> to receive logs
 
+zipkin
+distributed tracing
+
 
 
 
