@@ -1,2 +1,15 @@
-# cf-SpringBootTrader-config
-configuration repository for cf-SpringBootTrader
+health
+https://uptimerobot.com/dashboard#mainDashboard
+
+metrics
+
+graphite
+
+
+
+service registry
+
+Eureka
+
+
+
