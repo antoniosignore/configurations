@@ -17,6 +17,7 @@ papertrailapp -> to receive logs
 
 zipkin
 distributed tracing
+spring sleuth.sampler.percentage=0.1
 
 
 
