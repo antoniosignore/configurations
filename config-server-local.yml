@@ -1,0 +1,20 @@
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    metadataMap:
+      instanceId: ${vcap.application.instance_id:${spring.application.name}:${spring.application.instance_id:${server.port}}}
+  client:
+    registryFetchIntervalSeconds: 5
+
+logging:
+  path: ./logs/config
+  file: ./logs/config/api.log
+
+---
+spring:
+  profiles: local
+server:
+  port: 8888
+
+
