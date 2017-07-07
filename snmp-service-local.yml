@@ -1,6 +1,13 @@
 server:
     port: 9000
 
+info:
+  build:
+    group: MUAC
+    name: SNMP Agent
+    description: SNMP Edge Service
+    version: 0.1
+    
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
